@@ -126,7 +126,7 @@ type Link {
   url: String!
   description: String!
   postedBy: User
-  votes: [Vote!]!
+  votes: [Vote]!
 }
 ```
 
